@@ -5,7 +5,7 @@ export default function App() {
         {/* Top row */}
         <div className="flex justify-between items-end mb-24">
           {/* Name */}
-          <h1 className="text-[94px] font-black font-[700] leading-none tracking-tighter">
+          <h1 className="text-[94px] font-black font-[690] leading-none tracking-tighter">
             jake bowden.
           </h1>
 
@@ -99,12 +99,14 @@ export default function App() {
           <h2 className="text-[44px] font-normal">projects</h2>
           <p>HCDI assignment →</p>
           <iframe
-            className="w-full aspect-video mt-4"
-            src="https://www.youtube.com/watch?v=s-IN1v0aiAs&ab_channel=JacobPhinehasBowden"
-            title="HCDI Assignment Demo"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/s-IN1v0aiAs?si=tI5SUSHMWvp2vI8_"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
       </div>
