@@ -93,22 +93,6 @@ export default function App() {
             </p>
           </div>
         </div>
-
-        {/* Projects */}
-        <div className="md:w-[45%]">
-          <h2 className="text-[44px] font-normal">projects</h2>
-          <p>HCDI assignment →</p>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/s-IN1v0aiAs?si=tI5SUSHMWvp2vI8_"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
       </div>
     </div>
   );
